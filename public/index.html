@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Sensation</title>
+    <title>Cinema Sensation - Your Ultimate Movie Experience</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
+            color: #333;
         }
 
         header {
             background-color: #333;
             color: white;
-            padding: 10px 0;
             text-align: center;
+            padding: 20px 0;
         }
 
         .container {
@@ -25,63 +26,46 @@
             padding: 20px;
         }
 
-        .movie {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            background-color: white;
-            padding: 10px;
-            border-radius: 5px;
+        .introduction {
+            text-align: center;
+            margin-bottom: 30px;
         }
 
-        .movie img {
-            max-width: 150px;
-            margin-right: 20px;
-            border-radius: 5px;
-        }
-
-        .movie-details {
-            flex: 1;
-        }
-
-        .movie-title {
-            font-size: 24px;
-            font-weight: bold;
+        h1 {
+            font-size: 36px;
             margin-bottom: 10px;
         }
 
-        .movie-info {
-            font-size: 16px;
-            color: #555;
+        p {
+            font-size: 18px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #f1356d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #d22554;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Cinema Sensation</h1>
+        <h1>Welcome to Cinema Sensation</h1>
         <p>Your Ultimate Movie Experience</p>
     </header>
     <div class="container">
-        <div class="movie">
-            <img src="movie1.jpg" alt="Movie 1">
-            <div class="movie-details">
-                <h2 class="movie-title">Movie Title 1</h2>
-                <p class="movie-info">Release Date: January 1, 2023</p>
-                <p class="movie-info">Genre: Action</p>
-                <p class="movie-info">Duration: 2h 30m</p>
-            </div>
+        <div class="introduction">
+            <h1>Discover the Magic of Movies</h1>
+            <p>Experience a world of entertainment like never before. From heart-pounding action to heartwarming dramas, Cinema Sensation brings you the latest and greatest films for every cinephile.</p>
+            <a class="cta-button" href="#">Explore Now</a>
         </div>
-        <div class="movie">
-            <img src="movie2.jpg" alt="Movie 2">
-            <div class="movie-details">
-                <h2 class="movie-title">Movie Title 2</h2>
-                <p class="movie-info">Release Date: February 15, 2023</p>
-                <p class="movie-info">Genre: Drama</p>
-                <p class="movie-info">Duration: 2h 15m</p>
-            </div>
-        </div>
-        <!-- Add more movie entries here -->
     </div>
 </body>
 </html>
